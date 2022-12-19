@@ -6,7 +6,6 @@
 #4) merges the tables in the postgresql database to form one single table
 
 totalStart=`date +%s` #initialise a timer for the whole script
-yearsBack=50
 
 cd ~/generalindex_workflow/generalindex_workflow/ #change working directory
 
@@ -81,11 +80,12 @@ psql -d generalindex_metadata -f ~/generalindex_workflow/generalindex_workflow/d
 end=`date +%s`
 echo execution time was `expr $end - $start` seconds.
 
-#creating a copy of the metadata table to make it easier to work with that only uses the last _ years of information
+#creating a copy of the metadata table to make it easier to work with that only uses the last 20 years of information
+echo "creating a sub-database of recent data..."
+start=`date +%s`
 psql -d generalindex_metadata -f populate_recent_meta.sql
-
-
-
+end=`date +%s`
+echo execution time was `expr $end - $start` seconds.
 
 #total script timer
 totalEnd=`date +%s`

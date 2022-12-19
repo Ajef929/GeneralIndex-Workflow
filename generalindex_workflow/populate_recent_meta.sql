@@ -1,7 +1,7 @@
 --queries to populate a table of recent data for easier query processing 
 --\x on
 
-drop table meta_clean if exists;
+drop table if exists meta_clean;
 
 with clean_date as 
 (select  dkey,
@@ -29,8 +29,8 @@ into TEMP meta_clean
 from clean_date;
 
 --create recent metadata table
-drop table metadata_recent if exists;
+drop table if exists metadata_recent;
 select *
 into metadata_recent 
 from  meta_clean as mr
-where date_part('year',current_date) - mr.year <= 50; --only looking at the past 50 years of dates
+where date_part('year',current_date) - mr.year <= 20; --only looking at the past 20 years of dates
