@@ -1,0 +1,16 @@
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_0.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_1.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_2.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_3.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_4.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_5.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_6.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_7.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_8.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_9.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_a.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_b.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_c.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_d.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_e.sql.tar.gz
+https://ia802307.us.archive.org/18/items/GeneralIndex/data/doc_metadata/doc_info_f.sql.tar.gz
