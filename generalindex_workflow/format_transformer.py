@@ -74,6 +74,7 @@ class SQLDumpTransformer:
             line_decoded = line.decode()
             if re.match(r'COPY',line_decoded):
                 self.data_start_idx = idx
+                return
 
         assert idx > 0,"Copy statement not found in file"
 
