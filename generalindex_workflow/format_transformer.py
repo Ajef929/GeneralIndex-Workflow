@@ -140,7 +140,9 @@ def main():
     zip_filename = args[1] ##extract the first non-script argument from the list
     #zip_filename = 'keywords_sample.sql.zip'
     ft = SQLDumpTransformer(zip_filename)
-    ft.writeToParquetBuffered(chunksize=Size.MEB.value * 200)
+    ft.writeToParquetBuffered(chunksize=Size.MEB.value * 1024)
+
+
 
 if __name__ == "__main__":
     main()
