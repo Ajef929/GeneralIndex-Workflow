@@ -1,7 +1,6 @@
 ##python file rwrites gzip file into another format
 """
-This file rewrites the a .sql.zip file into a csv equivalent
-
+This file rewrites .sql postgresql dump files into parquet.gz format. It is designed to be used as a step prior to importing the keywords or ngram data into a big data solution, such as snowflake. Currently, converting one slcie of keywrods takes about 2 hours. 
 """
 import sys
 import subprocess

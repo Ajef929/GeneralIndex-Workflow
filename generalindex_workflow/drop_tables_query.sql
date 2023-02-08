@@ -1,3 +1,4 @@
+--this query is executed by metadata_workflow.sh. It removes the existing metadata tables from the database
 DO
 $do$
 BEGIN
